@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- 肌识 MyoMap 图标（候选 B，源文件见 docs/icon/icons.js）：藏青底、白色人形、肩颈红色斜线阴影 -->
+  <defs>
+    <pattern id="hBl" width="34" height="34" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+      <rect width="34" height="34" fill="none"/><rect width="15" height="34" fill="#D2402F"/>
+    </pattern>
+    <radialGradient id="fBl" gradientUnits="userSpaceOnUse" cx="592" cy="420" r="118">
+      <stop offset="0.55" stop-color="#fff"/><stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <mask id="cBl" maskUnits="userSpaceOnUse" x="0" y="0" width="1024" height="1024"><g stroke="url(#fBl)" fill="url(#fBl)">
+      <path d="M424 352 H600 Q636 352 636 390 L606 612 Q602 644 570 644 H454 Q422 644 418 612 L388 390 Q388 352 424 352 Z"/>
+      <path d="M408 396 L320 640 M616 396 L704 640" stroke-width="72" stroke-linecap="round"/>
+      <path d="M474 610 L458 876 M550 610 L566 876" stroke-width="84" stroke-linecap="round"/></g></mask>
+  </defs>
+  <rect width="1024" height="1024" rx="230" fill="#1C2B4A"/>
+  <g fill="#FFFFFF" stroke="#FFFFFF"><circle cx="512" cy="232" r="96"/>
+    <path d="M424 352 H600 Q636 352 636 390 L606 612 Q602 644 570 644 H454 Q422 644 418 612 L388 390 Q388 352 424 352 Z"/>
+    <path d="M408 396 L320 640 M616 396 L704 640" stroke-width="72" stroke-linecap="round"/>
+    <path d="M474 610 L458 876 M550 610 L566 876" stroke-width="84" stroke-linecap="round"/></g>
+  <g mask="url(#cBl)"><rect width="1024" height="1024" fill="url(#hBl)"/></g>
+</svg>
